@@ -4,7 +4,7 @@
         "email": "golyshev.dmitry@yandex.ru"
     },
     "bugs": {
-        "url": "https://github.com/golyshevd/module/issues"
+        "url": "https://github.com/golyshevd/sergeymayner-www/issues"
     },
     "contributors": [
         {
@@ -13,7 +13,7 @@
         }
     ],
     "dependencies": {},
-    "description": "",
+    "description": "www for sergeymayner",
     "devDependencies": {
         "jshint": "",
         "nodeunit": "",
@@ -21,14 +21,14 @@
     },
     "license": "MIT",
     "main": "",
-    "name": "",
+    "name": "sergeymayner-www",
     "repository": {
         "type": "git",
-        "url": "git://github.com/golyshevd/module.git"
+        "url": "git://github.com/golyshevd/sergeymayner-www.git"
     },
     "scripts": {
         "test": "tools/test"
     },
     "version": "0.0.0",
-    "readme": ""
+    "readme": "sergeymayner-www\n=========\n"
 }
