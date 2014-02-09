@@ -1,4 +1,109 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+
+html, body {
+    height: 100%;
+}
+
+.page {
+    text-align: center;
+    height: 100%;
+    background: black;
+}
+
+.page__content {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.rod {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    width: 0;
+}
+
+.broken {
+    text-align: center;
+}
+
+.broken__logo {
+    outline: none;
+    border: none;
+    margin: 0 0 80px 0;
+    padding: 0;
+
+    width: 66px;
+    height: 122px;
+}
+
+.broken__what {
+    font-weight: normal;
+    font-size: 90px;
+    line-height: 90px;
+    color: #e91519;
+    margin: 0;
+}
+
+.broken__who {
+    color: #7e7e7e;
+    font-size: 20px;
+    font-style: normal;
+    margin: 50px 0;
+    display: block;
+}
+
+.broken__why {
+    color: #525252;
+    font-size: 16px;
+    margin: 50px 0;
+
+    display: block;
+}
+
+.broken__link {
+    color: #c60e11;
+    text-decoration: underline;
+}
+
+.toolbox {
+    list-style: none;
+    color: red;
+    text-align: center;
+}
+
+.toolbox__item {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    background: center center no-repeat;
+
+    margin: 0 10px;
+}
+
+.toolbox__item_type_twitter {
+    background: url(../i/toolbox__twitter.png);
+}
+
+.toolbox__item_type_behance {
+    background: url(../i/toolbox__behance.png);
+}
+
+.toolbox__item_type_pinterest {
+    background: url(../i/toolbox__pinterest.png);
+}
+
+.toolbox__link {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
