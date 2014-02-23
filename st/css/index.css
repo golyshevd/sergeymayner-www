@@ -43,24 +43,24 @@ html, body {
 
 .broken__what {
     font-weight: normal;
-    font-size: 90px;
-    line-height: 90px;
+    font-size: 74px;
+    line-height: 74px;
     color: #e91519;
     margin: 0;
 }
 
 .broken__who {
     color: #7e7e7e;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    margin: 50px 0;
+    margin: 40px 0;
     display: block;
 }
 
 .broken__why {
     color: #525252;
-    font-size: 16px;
-    margin: 50px 0;
+    font-size: 14px;
+    margin: 40px 0;
 
     display: block;
 }
