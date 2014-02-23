@@ -15,6 +15,11 @@ html, body {
     background-size: cover;
 }
 
+.page__mask {
+    height: 100%;
+    background: url(../i/background__dots.png);
+}
+
 .page__content {
     display: inline-block;
     vertical-align: middle;
