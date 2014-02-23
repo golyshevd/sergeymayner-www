@@ -11,7 +11,8 @@ html, body {
 .page {
     text-align: center;
     height: 100%;
-    background: black;
+    background: url(../i/background.jpg) black;
+    background-size: cover;
 }
 
 .page__content {
